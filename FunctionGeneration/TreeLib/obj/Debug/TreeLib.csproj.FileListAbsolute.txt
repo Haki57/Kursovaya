@@ -1,0 +1,18 @@
+C:\Users\User\Desktop\kurs_1\Kursovaya\FunctionGeneration\TreeLib\bin\Debug\TreeLib.dll
+C:\Users\User\Desktop\kurs_1\Kursovaya\FunctionGeneration\TreeLib\bin\Debug\TreeLib.pdb
+C:\Users\User\Desktop\kurs_1\Kursovaya\FunctionGeneration\TreeLib\obj\Debug\TreeLib.csprojAssemblyReference.cache
+C:\Users\User\Desktop\kurs_1\Kursovaya\FunctionGeneration\TreeLib\obj\Debug\TreeLib.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\kurs_1\Kursovaya\FunctionGeneration\TreeLib\obj\Debug\TreeLib.dll
+C:\Users\User\Desktop\kurs_1\Kursovaya\FunctionGeneration\TreeLib\obj\Debug\TreeLib.pdb
+C:\Users\User\Desktop\FunctionGeneration\TreeLib\bin\Debug\TreeLib.dll
+C:\Users\User\Desktop\FunctionGeneration\TreeLib\bin\Debug\TreeLib.pdb
+C:\Users\User\Desktop\FunctionGeneration\TreeLib\obj\Debug\TreeLib.csprojAssemblyReference.cache
+C:\Users\User\Desktop\FunctionGeneration\TreeLib\obj\Debug\TreeLib.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\FunctionGeneration\TreeLib\obj\Debug\TreeLib.dll
+C:\Users\User\Desktop\FunctionGeneration\TreeLib\obj\Debug\TreeLib.pdb
+C:\Users\User\Desktop\kurs_1\Kursovaya\Черкасов 182\FunctionGeneration\TreeLib\bin\Debug\TreeLib.dll
+C:\Users\User\Desktop\kurs_1\Kursovaya\Черкасов 182\FunctionGeneration\TreeLib\bin\Debug\TreeLib.pdb
+C:\Users\User\Desktop\kurs_1\Kursovaya\Черкасов 182\FunctionGeneration\TreeLib\obj\Debug\TreeLib.csprojAssemblyReference.cache
+C:\Users\User\Desktop\kurs_1\Kursovaya\Черкасов 182\FunctionGeneration\TreeLib\obj\Debug\TreeLib.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\kurs_1\Kursovaya\Черкасов 182\FunctionGeneration\TreeLib\obj\Debug\TreeLib.dll
+C:\Users\User\Desktop\kurs_1\Kursovaya\Черкасов 182\FunctionGeneration\TreeLib\obj\Debug\TreeLib.pdb

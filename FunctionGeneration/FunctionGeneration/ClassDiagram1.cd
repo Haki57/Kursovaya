@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FunctionGeneration.ClassForm">
+    <Position X="2.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BAAgCAAgACCAAAAAAECAAAACAAAAAAACGAAAAAAAAAA=</HashCode>
+      <FileName>ClassForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunctionGeneration.HypothesisTestingForm">
+    <Position X="5.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAICAAQAAAAECAQIACAAAAAAAACAABAAAAAAA=</HashCode>
+      <FileName>HypothesisTestingForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunctionGeneration.MenuForm">
+    <Position X="8" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAwACAAAAAAACCCABACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunctionGeneration.TreeForm">
+    <Position X="10.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>hAAgAAAAACAgBAAAUECAAMz/8A8QAgEACAADAAAAAAI=</HashCode>
+      <FileName>TreeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreeLib.Tree">
+    <Position X="8.25" Y="4.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
