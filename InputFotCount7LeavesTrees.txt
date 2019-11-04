@@ -1,0 +1,792 @@
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,7->15,7->16,15->31,15->32,31->63,31->64}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - b1 * G), c1 == x * (d1 * G - b1 * G), d1 == x * (e1 * G - b1 * G), e1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * b1 * F), c1 == x * (d1 * F + (y - 1) * b1 * F), d1 == x * (e1 * F + (y - 1) * b1 * F), e1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,7->15,7->16,15->31,15->32,32->65,32->66}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - d1 * G), c1 == x * (e1 * G - f1 * G), d1 == x * (g1 * G - h1 * G), e1 == x * (i1 * G - j1 * G), f1 == x * (k1 * G - l1 * G), g1 == x * (m1 * G - n1 * G), h1 == x * (o1 * G - p1 * G), i1 == x * (G * a1 - b1 * a1), j1 == x * (c1 * a1 - d1 * a1), k1 == x * (e1 * a1 - f1 * a1), l1 == x * (g1 * a1 - h1 * a1), m1 == x * (i1 * a1 - j1 * a1), n1 == x * (k1 * a1 - l1 * a1), o1 == x * (m1 * a1 - n1 * a1), p1 == x * (o1 * a1 - p1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * d1 * F), c1 == x * (e1 * F + (y - 1) * f1 * F), d1 == x * (g1 * F + (y - 1) * h1 * F), e1 == x * (i1 * F + (y - 1) * j1 * F), f1 == x * (k1 * F + (y - 1) * l1 * F), g1 == x * (m1 * F + (y - 1) * n1 * F), h1 == x * (o1 * F + (y - 1) * p1 * F), i1 == x * (F * a1 + (y - 1) * b1 * a1), j1 == x * (c1 * a1 + (y - 1) * d1 * a1), k1 == x * (e1 * a1 + (y - 1) * f1 * a1), l1 == x * (g1 * a1 + (y - 1) * h1 * a1), m1 == x * (i1 * a1 + (y - 1) * j1 * a1), n1 == x * (k1 * a1 + (y - 1) * l1 * a1), o1 == x * (m1 * a1 + (y - 1) * n1 * a1), p1 == x * (o1 * a1 + (y - 1) * p1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,7->15,7->16,15->31,15->32,16->33,16->34}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - d1 * G), c1 == x * (e1 * G - f1 * G), d1 == x * (g1 * G - h1 * G), e1 == x * (a1 * a1 - b1 * a1), f1 == x * (c1 * a1 - d1 * a1), g1 == x * (e1 * a1 - f1 * a1), h1 == x * (g1 * a1 - h1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * d1 * F), c1 == x * (e1 * F + (y - 1) * f1 * F), d1 == x * (g1 * F + (y - 1) * h1 * F), e1 == x * (a1 * a1 + (y - 1) * b1 * a1), f1 == x * (c1 * a1 + (y - 1) * d1 * a1), g1 == x * (e1 * a1 + (y - 1) * f1 * a1), h1 == x * (g1 * a1 + (y - 1) * h1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,7->15,7->16,8->17,8->18,15->31,15->32}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - d1 * G), c1 == x * (e1 * a1 - b1 * a1), d1 == x * (c1 * a1 - d1 * a1), e1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * d1 * F), c1 == x * (e1 * a1 + (y - 1) * b1 * a1), d1 == x * (c1 * a1 + (y - 1) * d1 * a1), e1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,7->15,7->16,15->31,15->32}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * a1 - b1 * a1), c1 == x * (d1 * G - b1 * G), d1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * a1 + (y - 1) * b1 * a1), c1 == x * (d1 * F + (y - 1) * b1 * F), d1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,7->15,7->16,15->31,15->32}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (c1 * G - b1 * a1), c1 == x * (d1 * G - b1 * a1), d1 == x * (a1 * G - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (c1 * F + (y - 1) * b1 * a1), c1 == x * (d1 * F + (y - 1) * b1 * a1), d1 == x * (a1 * F + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,7->15,7->16,16->33,16->34,33->67,33->68}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - d1 * G), c1 == x * (e1 * G - f1 * G), d1 == x * (g1 * G - h1 * G), e1 == x * (G * i1 - b1 * i1), f1 == x * (c1 * i1 - d1 * i1), g1 == x * (e1 * i1 - f1 * i1), h1 == x * (g1 * i1 - h1 * i1), i1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * d1 * F), c1 == x * (e1 * F + (y - 1) * f1 * F), d1 == x * (g1 * F + (y - 1) * h1 * F), e1 == x * (F * i1 + (y - 1) * b1 * i1), f1 == x * (c1 * i1 + (y - 1) * d1 * i1), g1 == x * (e1 * i1 + (y - 1) * f1 * i1), h1 == x * (g1 * i1 + (y - 1) * h1 * i1), i1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,7->15,7->16,16->33,16->34,34->69,34->70}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - d1 * G), c1 == x * (e1 * G - f1 * G), d1 == x * (g1 * G - h1 * G), e1 == x * (G * i1 - b1 * i1), f1 == x * (c1 * i1 - d1 * i1), g1 == x * (e1 * i1 - f1 * i1), h1 == x * (g1 * i1 - h1 * i1), i1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * d1 * F), c1 == x * (e1 * F + (y - 1) * f1 * F), d1 == x * (g1 * F + (y - 1) * h1 * F), e1 == x * (F * i1 + (y - 1) * b1 * i1), f1 == x * (c1 * i1 + (y - 1) * d1 * i1), g1 == x * (e1 * i1 + (y - 1) * f1 * i1), h1 == x * (g1 * i1 + (y - 1) * h1 * i1), i1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,7->15,7->16,8->17,8->18,16->33,16->34}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - d1 * G), c1 == x * (e1 * a1 - d1 * a1), d1 == x * (c1 * a1 - d1 * a1), e1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * d1 * F), c1 == x * (e1 * a1 + (y - 1) * d1 * a1), d1 == x * (c1 * a1 + (y - 1) * d1 * a1), e1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,7->15,7->16,16->33,16->34}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * a1 - d1 * a1), c1 == x * (e1 * G - b1 * G), d1 == x * (f1 * a1 - d1 * a1), e1 == x * (G * a1 - b1 * a1), f1 == x * (e1 * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * a1 + (y - 1) * d1 * a1), c1 == x * (e1 * F + (y - 1) * b1 * F), d1 == x * (f1 * a1 + (y - 1) * d1 * a1), e1 == x * (F * a1 + (y - 1) * b1 * a1), f1 == x * (e1 * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,7->15,7->16,16->33,16->34}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (c1 * G - d1 * a1), c1 == x * (e1 * G - f1 * a1), d1 == x * (g1 * G - h1 * a1), e1 == x * (G * a1 - b1 * a1), f1 == x * (c1 * a1 - d1 * a1), g1 == x * (e1 * a1 - f1 * a1), h1 == x * (g1 * a1 - h1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (c1 * F + (y - 1) * d1 * a1), c1 == x * (e1 * F + (y - 1) * f1 * a1), d1 == x * (g1 * F + (y - 1) * h1 * a1), e1 == x * (F * a1 + (y - 1) * b1 * a1), f1 == x * (c1 * a1 + (y - 1) * d1 * a1), g1 == x * (e1 * a1 + (y - 1) * f1 * a1), h1 == x * (g1 * a1 + (y - 1) * h1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,7->15,7->16,8->17,8->18,17->35,17->36}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - d1 * G), c1 == x * (a1 * e1 - b1 * e1), d1 == x * (c1 * e1 - d1 * e1), e1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * d1 * F), c1 == x * (a1 * e1 + (y - 1) * b1 * e1), d1 == x * (c1 * e1 + (y - 1) * d1 * e1), e1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,7->15,7->16,8->17,8->18,18->37,18->38}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - d1 * G), c1 == x * (a1 * e1 - b1 * e1), d1 == x * (c1 * e1 - d1 * e1), e1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * d1 * F), c1 == x * (a1 * e1 + (y - 1) * b1 * e1), d1 == x * (c1 * e1 + (y - 1) * d1 * e1), e1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,7->15,7->16,8->17,8->18}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * a1 - b1 * a1), c1 == x * (a1 * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * a1 + (y - 1) * b1 * a1), c1 == x * (a1 * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,7->15,7->16,8->17,8->18}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (c1 * G - d1 * a1), c1 == x * (a1 * a1 - b1 * a1), d1 == x * (c1 * a1 - d1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (c1 * F + (y - 1) * d1 * a1), c1 == x * (a1 * a1 + (y - 1) * b1 * a1), d1 == x * (c1 * a1 + (y - 1) * d1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,7->15,7->16,9->19,9->20}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * c1 - b1 * c1), c1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * c1 + (y - 1) * b1 * c1), c1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,7->15,7->16,10->21,10->22}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * d1 - b1 * d1), c1 == x * (a1 * G - b1 * G), d1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * d1 + (y - 1) * b1 * d1), c1 == x * (a1 * F + (y - 1) * b1 * F), d1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,4->9,4->10,7->15,7->16}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (c1 * a1 - b1 * a1), c1 == x * (a1 * G - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (c1 * a1 + (y - 1) * b1 * a1), c1 == x * (a1 * F + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,5->11,5->12,7->15,7->16}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (c1 * G - b1 * c1), c1 == x * (a1 * G - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (c1 * F + (y - 1) * b1 * c1), c1 == x * (a1 * F + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,6->13,6->14,7->15,7->16}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (d1 * G - b1 * c1), c1 == x * (G * a1 - b1 * c1), d1 == x * (a1 * G - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (d1 * F + (y - 1) * b1 * c1), c1 == x * (F * a1 + (y - 1) * b1 * c1), d1 == x * (a1 * F + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,8->17,8->18,17->35,17->36,35->71,35->72}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - d1 * G), c1 == x * (G * e1 - b1 * e1), d1 == x * (c1 * e1 - d1 * e1), e1 == x * (f1 * G - b1 * G), f1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * d1 * F), c1 == x * (F * e1 + (y - 1) * b1 * e1), d1 == x * (c1 * e1 + (y - 1) * d1 * e1), e1 == x * (f1 * F + (y - 1) * b1 * F), f1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,8->17,8->18,17->35,17->36,36->73,36->74}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - d1 * G), c1 == x * (G * e1 - b1 * e1), d1 == x * (c1 * e1 - d1 * e1), e1 == x * (f1 * G - g1 * G), f1 == x * (G * a1 - b1 * a1), g1 == x * (c1 * a1 - d1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * d1 * F), c1 == x * (F * e1 + (y - 1) * b1 * e1), d1 == x * (c1 * e1 + (y - 1) * d1 * e1), e1 == x * (f1 * F + (y - 1) * g1 * F), f1 == x * (F * a1 + (y - 1) * b1 * a1), g1 == x * (c1 * a1 + (y - 1) * d1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,8->17,8->18,17->35,17->36,18->37,18->38}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - d1 * G), c1 == x * (G * e1 - b1 * e1), d1 == x * (c1 * e1 - d1 * e1), e1 == x * (a1 * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * d1 * F), c1 == x * (F * e1 + (y - 1) * b1 * e1), d1 == x * (c1 * e1 + (y - 1) * d1 * e1), e1 == x * (a1 * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,8->17,8->18,17->35,17->36}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * a1 - d1 * a1), c1 == x * (G * e1 - b1 * e1), d1 == x * (c1 * e1 - d1 * e1), e1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * a1 + (y - 1) * d1 * a1), c1 == x * (F * e1 + (y - 1) * b1 * e1), d1 == x * (c1 * e1 + (y - 1) * d1 * e1), e1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,8->17,8->18,17->35,17->36}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (c1 * G - d1 * a1), c1 == x * (G * e1 - b1 * e1), d1 == x * (c1 * e1 - d1 * e1), e1 == x * (a1 * G - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (c1 * F + (y - 1) * d1 * a1), c1 == x * (F * e1 + (y - 1) * b1 * e1), d1 == x * (c1 * e1 + (y - 1) * d1 * e1), e1 == x * (a1 * F + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,8->17,8->18,18->37,18->38,37->75,37->76}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - d1 * G), c1 == x * (G * e1 - b1 * e1), d1 == x * (c1 * e1 - d1 * e1), e1 == x * (G * f1 - b1 * f1), f1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * d1 * F), c1 == x * (F * e1 + (y - 1) * b1 * e1), d1 == x * (c1 * e1 + (y - 1) * d1 * e1), e1 == x * (F * f1 + (y - 1) * b1 * f1), f1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,8->17,8->18,18->37,18->38,38->77,38->78}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * G - d1 * G), c1 == x * (G * e1 - b1 * e1), d1 == x * (c1 * e1 - d1 * e1), e1 == x * (G * f1 - b1 * f1), f1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * F + (y - 1) * d1 * F), c1 == x * (F * e1 + (y - 1) * b1 * e1), d1 == x * (c1 * e1 + (y - 1) * d1 * e1), e1 == x * (F * f1 + (y - 1) * b1 * f1), f1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,8->17,8->18,18->37,18->38}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * a1 - d1 * a1), c1 == x * (G * e1 - b1 * e1), d1 == x * (c1 * e1 - d1 * e1), e1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * a1 + (y - 1) * d1 * a1), c1 == x * (F * e1 + (y - 1) * b1 * e1), d1 == x * (c1 * e1 + (y - 1) * d1 * e1), e1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,8->17,8->18,18->37,18->38}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (c1 * G - d1 * a1), c1 == x * (G * e1 - b1 * e1), d1 == x * (c1 * e1 - d1 * e1), e1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (c1 * F + (y - 1) * d1 * a1), c1 == x * (F * e1 + (y - 1) * b1 * e1), d1 == x * (c1 * e1 + (y - 1) * d1 * e1), e1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,8->17,8->18,9->19,9->20}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * d1 - b1 * d1), c1 == x * (G * a1 - b1 * a1), d1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * d1 + (y - 1) * b1 * d1), c1 == x * (F * a1 + (y - 1) * b1 * a1), d1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,8->17,8->18,10->21,10->22}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (c1 * c1 - b1 * c1), c1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (c1 * c1 + (y - 1) * b1 * c1), c1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,4->9,4->10,8->17,8->18}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (c1 * a1 - b1 * a1), c1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (c1 * a1 + (y - 1) * b1 * a1), c1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,5->11,5->12,8->17,8->18}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (d1 * G - e1 * c1), c1 == x * (a1 * G - b1 * c1), d1 == x * (G * a1 - b1 * c1), e1 == x * (d1 * a1 - e1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (d1 * F + (y - 1) * e1 * c1), c1 == x * (a1 * F + (y - 1) * b1 * c1), d1 == x * (F * a1 + (y - 1) * b1 * c1), e1 == x * (d1 * a1 + (y - 1) * e1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,6->13,6->14,8->17,8->18}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (c1 * G - d1 * c1), c1 == x * (G * a1 - b1 * c1), d1 == x * (c1 * a1 - d1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (c1 * F + (y - 1) * d1 * c1), c1 == x * (F * a1 + (y - 1) * b1 * c1), d1 == x * (c1 * a1 + (y - 1) * d1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,9->19,9->20,19->39,19->40}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (a1 * c1 - b1 * c1), c1 == x * (d1 * G - b1 * G), d1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (a1 * c1 + (y - 1) * b1 * c1), c1 == x * (d1 * F + (y - 1) * b1 * F), d1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,9->19,9->20,20->41,20->42}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (a1 * c1 - b1 * c1), c1 == x * (d1 * G - b1 * G), d1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (a1 * c1 + (y - 1) * b1 * c1), c1 == x * (d1 * F + (y - 1) * b1 * F), d1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,9->19,9->20,10->21,10->22}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (a1 * c1 - b1 * c1), c1 == x * (a1 * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (a1 * c1 + (y - 1) * b1 * c1), c1 == x * (a1 * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,4->9,4->10,9->19,9->20}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (a1 * c1 - b1 * c1), c1 == x * (a1 * G - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (a1 * c1 + (y - 1) * b1 * c1), c1 == x * (a1 * F + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,10->21,10->22,21->43,21->44}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (a1 * c1 - b1 * c1), c1 == x * (G * d1 - b1 * d1), d1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (a1 * c1 + (y - 1) * b1 * c1), c1 == x * (F * d1 + (y - 1) * b1 * d1), d1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,3->7,3->8,4->9,4->10,10->21,10->22,22->45,22->46}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (a1 * c1 - b1 * c1), c1 == x * (G * d1 - b1 * d1), d1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (a1 * c1 + (y - 1) * b1 * c1), c1 == x * (F * d1 + (y - 1) * b1 * d1), d1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,4->9,4->10,10->21,10->22}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (a1 * c1 - b1 * c1), c1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (a1 * c1 + (y - 1) * b1 * c1), c1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,4->9,4->10,5->11,5->12}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (a1 * a1 - b1 * c1), c1 == x * (a1 * G - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (a1 * a1 + (y - 1) * b1 * c1), c1 == x * (a1 * F + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,4->9,4->10,6->13,6->14}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (a1 * a1 - b1 * c1), c1 == x * (G * a1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (a1 * a1 + (y - 1) * b1 * c1), c1 == x * (F * a1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,5->11,5->12,11->23,11->24}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (a1 * G - b1 * c1), c1 == x * (b1 * G - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (a1 * F + (y - 1) * b1 * c1), c1 == x * (b1 * F + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,5->11,5->12,12->25,12->26}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (a1 * G - b1 * c1), c1 == x * (d1 * G - e1 * c1), d1 == x * (G * a1 - b1 * c1), e1 == x * (a1 * a1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (a1 * F + (y - 1) * b1 * c1), c1 == x * (d1 * F + (y - 1) * e1 * c1), d1 == x * (F * a1 + (y - 1) * b1 * c1), e1 == x * (a1 * a1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,5->11,5->12,6->13,6->14}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (a1 * G - b1 * c1), c1 == x * (a1 * a1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (a1 * F + (y - 1) * b1 * c1), c1 == x * (a1 * a1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,6->13,6->14,13->27,13->28}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (a1 * G - b1 * c1), c1 == x * (G * b1 - b1 * d1), d1 == x * (a1 * b1 - b1 * d1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (a1 * F + (y - 1) * b1 * c1), c1 == x * (F * b1 + (y - 1) * b1 * d1), d1 == x * (a1 * b1 + (y - 1) * b1 * d1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,3->7,3->8,6->13,6->14,14->29,14->30}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (a1 * G - b1 * c1), c1 == x * (G * d1 - b1 * c1), d1 == x * (G * a1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (a1 * F + (y - 1) * b1 * c1), c1 == x * (F * d1 + (y - 1) * b1 * c1), d1 == x * (F * a1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,9->19,9->20,19->39,19->40,39->79,39->80}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (d1 * G - e1 * G), d1 == x * (f1 * G - g1 * G), e1 == x * (f1 * c1 - g1 * c1), f1 == x * (a1 * G - b1 * G), g1 == x * (a1 * c1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (d1 * F + (y - 1) * e1 * F), d1 == x * (f1 * F + (y - 1) * g1 * F), e1 == x * (f1 * c1 + (y - 1) * g1 * c1), f1 == x * (a1 * F + (y - 1) * b1 * F), g1 == x * (a1 * c1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,9->19,9->20,19->39,19->40,40->81,40->82}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (d1 * G - e1 * G), d1 == x * (f1 * G - b1 * G), e1 == x * (f1 * c1 - b1 * c1), f1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (d1 * F + (y - 1) * e1 * F), d1 == x * (f1 * F + (y - 1) * b1 * F), e1 == x * (f1 * c1 + (y - 1) * b1 * c1), f1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,9->19,9->20,19->39,19->40,20->41,20->42}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (d1 * G - e1 * G), d1 == x * (a1 * a1 - b1 * a1), e1 == x * (a1 * c1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (d1 * F + (y - 1) * e1 * F), d1 == x * (a1 * a1 + (y - 1) * b1 * a1), e1 == x * (a1 * c1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,9->19,9->20,10->21,10->22,19->39,19->40}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (d1 * a1 - e1 * a1), d1 == x * (a1 * G - b1 * G), e1 == x * (a1 * c1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (d1 * a1 + (y - 1) * e1 * a1), d1 == x * (a1 * F + (y - 1) * b1 * F), e1 == x * (a1 * c1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,9->19,9->20,19->39,19->40}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (G * c1 - b1 * c1), c1 == x * (d1 * G - e1 * a1), d1 == x * (a1 * G - b1 * a1), e1 == x * (a1 * c1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (d1 * F + (y - 1) * e1 * a1), d1 == x * (a1 * F + (y - 1) * b1 * a1), e1 == x * (a1 * c1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,9->19,9->20,20->41,20->42,41->83,41->84}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (d1 * G - b1 * G), d1 == x * (G * e1 - b1 * e1), e1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (d1 * F + (y - 1) * b1 * F), d1 == x * (F * e1 + (y - 1) * b1 * e1), e1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,9->19,9->20,20->41,20->42,42->85,42->86}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (d1 * G - e1 * G), d1 == x * (G * f1 - b1 * f1), e1 == x * (G * g1 - b1 * g1), f1 == x * (G * a1 - b1 * a1), g1 == x * (d1 * a1 - e1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (d1 * F + (y - 1) * e1 * F), d1 == x * (F * f1 + (y - 1) * b1 * f1), e1 == x * (F * g1 + (y - 1) * b1 * g1), f1 == x * (F * a1 + (y - 1) * b1 * a1), g1 == x * (d1 * a1 + (y - 1) * e1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,9->19,9->20,10->21,10->22,20->41,20->42}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (d1 * a1 - b1 * a1), d1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (d1 * a1 + (y - 1) * b1 * a1), d1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,9->19,9->20,20->41,20->42}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (G * c1 - b1 * c1), c1 == x * (d1 * G - b1 * a1), d1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (d1 * F + (y - 1) * b1 * a1), d1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,9->19,9->20,10->21,10->22,21->43,21->44}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (a1 * d1 - b1 * d1), d1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (a1 * d1 + (y - 1) * b1 * d1), d1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,9->19,9->20,10->21,10->22,22->45,22->46}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (a1 * d1 - b1 * d1), d1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (a1 * d1 + (y - 1) * b1 * d1), d1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,9->19,9->20,10->21,10->22}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (G * c1 - b1 * c1), c1 == x * (a1 * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (a1 * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,5->11,5->12,9->19,9->20}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (G * c1 - b1 * c1), c1 == x * (a1 * G - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (a1 * F + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,6->13,6->14,9->19,9->20}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (G * d1 - b1 * e1), c1 == x * (G * a1 - b1 * c1), d1 == x * (a1 * G - b1 * c1), e1 == x * (a1 * a1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (F * d1 + (y - 1) * b1 * e1), c1 == x * (F * a1 + (y - 1) * b1 * c1), d1 == x * (a1 * F + (y - 1) * b1 * c1), e1 == x * (a1 * a1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,10->21,10->22,21->43,21->44,43->87,43->88}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (G * d1 - b1 * d1), d1 == x * (e1 * G - f1 * G), e1 == x * (a1 * G - b1 * G), f1 == x * (a1 * c1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (F * d1 + (y - 1) * b1 * d1), d1 == x * (e1 * F + (y - 1) * f1 * F), e1 == x * (a1 * F + (y - 1) * b1 * F), f1 == x * (a1 * c1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,10->21,10->22,21->43,21->44,44->89,44->90}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (G * d1 - b1 * d1), d1 == x * (e1 * G - b1 * G), e1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (F * d1 + (y - 1) * b1 * d1), d1 == x * (e1 * F + (y - 1) * b1 * F), e1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,10->21,10->22,21->43,21->44,22->45,22->46}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (G * d1 - b1 * d1), d1 == x * (a1 * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (F * d1 + (y - 1) * b1 * d1), d1 == x * (a1 * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,10->21,10->22,21->43,21->44}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (G * c1 - b1 * c1), c1 == x * (G * d1 - b1 * d1), d1 == x * (a1 * G - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (F * d1 + (y - 1) * b1 * d1), d1 == x * (a1 * F + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,10->21,10->22,22->45,22->46,45->91,45->92}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (G * d1 - b1 * d1), d1 == x * (G * e1 - b1 * e1), e1 == x * (a1 * G - b1 * G)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (F * d1 + (y - 1) * b1 * d1), d1 == x * (F * e1 + (y - 1) * b1 * e1), e1 == x * (a1 * F + (y - 1) * b1 * F)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,4->9,4->10,10->21,10->22,22->45,22->46,46->93,46->94}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * G), b1 == x * (G * c1 - b1 * c1), c1 == x * (G * d1 - b1 * d1), d1 == x * (G * e1 - b1 * e1), e1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * F), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (F * d1 + (y - 1) * b1 * d1), d1 == x * (F * e1 + (y - 1) * b1 * e1), e1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,10->21,10->22,22->45,22->46}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * a1), b1 == x * (G * c1 - b1 * c1), c1 == x * (G * d1 - b1 * d1), d1 == x * (G * a1 - b1 * a1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * a1), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (F * d1 + (y - 1) * b1 * d1), d1 == x * (F * a1 + (y - 1) * b1 * a1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,5->11,5->12,10->21,10->22}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (G * d1 - b1 * e1), c1 == x * (a1 * G - b1 * c1), d1 == x * (G * a1 - b1 * c1), e1 == x * (a1 * a1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (F * d1 + (y - 1) * b1 * e1), c1 == x * (a1 * F + (y - 1) * b1 * c1), d1 == x * (F * a1 + (y - 1) * b1 * c1), e1 == x * (a1 * a1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,6->13,6->14,10->21,10->22}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (G * c1 - b1 * c1), c1 == x * (G * a1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (F * c1 + (y - 1) * b1 * c1), c1 == x * (F * a1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,5->11,5->12,11->23,11->24}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (G * a1 - b1 * c1), c1 == x * (d1 * G - e1 * c1), d1 == x * (a1 * G - b1 * c1), e1 == x * (a1 * a1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (F * a1 + (y - 1) * b1 * c1), c1 == x * (d1 * F + (y - 1) * e1 * c1), d1 == x * (a1 * F + (y - 1) * b1 * c1), e1 == x * (a1 * a1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,5->11,5->12,12->25,12->26}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (G * a1 - b1 * c1), c1 == x * (b1 * G - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (F * a1 + (y - 1) * b1 * c1), c1 == x * (b1 * F + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,5->11,5->12,6->13,6->14}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (G * a1 - b1 * c1), c1 == x * (a1 * a1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (F * a1 + (y - 1) * b1 * c1), c1 == x * (a1 * a1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,6->13,6->14,13->27,13->28}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (G * a1 - b1 * c1), c1 == x * (G * d1 - b1 * e1), d1 == x * (a1 * G - b1 * c1), e1 == x * (a1 * d1 - b1 * e1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (F * a1 + (y - 1) * b1 * c1), c1 == x * (F * d1 + (y - 1) * b1 * e1), d1 == x * (a1 * F + (y - 1) * b1 * c1), e1 == x * (a1 * d1 + (y - 1) * b1 * e1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,4->9,4->10,6->13,6->14,14->29,14->30}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - b1 * c1), b1 == x * (G * a1 - b1 * c1), c1 == x * (G * b1 - b1 * c1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * b1 * c1), b1 == x * (F * a1 + (y - 1) * b1 * c1), c1 == x * (F * b1 + (y - 1) * b1 * c1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,5->11,5->12,11->23,11->24,23->47,23->48}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (d1 * G - d1 * b1), d1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (d1 * F + (y - 1) * d1 * b1), d1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,5->11,5->12,11->23,11->24,24->49,24->50}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (d1 * G - d1 * b1), d1 == x * (G * a1 - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (d1 * F + (y - 1) * d1 * b1), d1 == x * (F * a1 + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,5->11,5->12,11->23,11->24,12->25,12->26}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (a1 * a1 - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (a1 * a1 + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,5->11,5->12,6->13,6->14,11->23,11->24}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (c1 * a1 - c1 * b1), c1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (c1 * a1 + (y - 1) * c1 * b1), c1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,5->11,5->12,12->25,12->26,25->51,25->52}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (G * d1 - a1 * b1), d1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (F * d1 + (y - 1) * a1 * b1), d1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,5->11,5->12,12->25,12->26,26->53,26->54}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (G * d1 - a1 * e1), d1 == x * (G * a1 - a1 * b1), e1 == x * (c1 * a1 - c1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (F * d1 + (y - 1) * a1 * e1), d1 == x * (F * a1 + (y - 1) * a1 * b1), e1 == x * (c1 * a1 + (y - 1) * c1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,5->11,5->12,6->13,6->14,12->25,12->26}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (c1 * a1 - c1 * b1), c1 == x * (G * a1 - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (c1 * a1 + (y - 1) * c1 * b1), c1 == x * (F * a1 + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,5->11,5->12,6->13,6->14,13->27,13->28}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (a1 * c1 - a1 * b1), c1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (a1 * c1 + (y - 1) * a1 * b1), c1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,5->11,5->12,6->13,6->14,14->29,14->30}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (a1 * c1 - a1 * b1), c1 == x * (G * a1 - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (a1 * c1 + (y - 1) * a1 * b1), c1 == x * (F * a1 + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,6->13,6->14,13->27,13->28,27->55,27->56}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (G * c1 - a1 * d1), c1 == x * (e1 * G - e1 * b1), d1 == x * (e1 * c1 - e1 * d1), e1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (F * c1 + (y - 1) * a1 * d1), c1 == x * (e1 * F + (y - 1) * e1 * b1), d1 == x * (e1 * c1 + (y - 1) * e1 * d1), e1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,6->13,6->14,13->27,13->28,28->57,28->58}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (G * c1 - a1 * d1), c1 == x * (e1 * G - e1 * b1), d1 == x * (e1 * c1 - e1 * d1), e1 == x * (G * a1 - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (F * c1 + (y - 1) * a1 * d1), c1 == x * (e1 * F + (y - 1) * e1 * b1), d1 == x * (e1 * c1 + (y - 1) * e1 * d1), e1 == x * (F * a1 + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,6->13,6->14,13->27,13->28,14->29,14->30}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (G * c1 - a1 * d1), c1 == x * (a1 * a1 - a1 * b1), d1 == x * (a1 * c1 - a1 * d1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (F * c1 + (y - 1) * a1 * d1), c1 == x * (a1 * a1 + (y - 1) * a1 * b1), d1 == x * (a1 * c1 + (y - 1) * a1 * d1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,6->13,6->14,14->29,14->30,29->59,29->60}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (G * c1 - a1 * d1), c1 == x * (G * e1 - a1 * f1), d1 == x * (G * g1 - a1 * h1), e1 == x * (a1 * G - a1 * b1), f1 == x * (a1 * c1 - a1 * d1), g1 == x * (a1 * e1 - a1 * f1), h1 == x * (a1 * g1 - a1 * h1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (F * c1 + (y - 1) * a1 * d1), c1 == x * (F * e1 + (y - 1) * a1 * f1), d1 == x * (F * g1 + (y - 1) * a1 * h1), e1 == x * (a1 * F + (y - 1) * a1 * b1), f1 == x * (a1 * c1 + (y - 1) * a1 * d1), g1 == x * (a1 * e1 + (y - 1) * a1 * f1), h1 == x * (a1 * g1 + (y - 1) * a1 * h1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,1->3,1->4,2->5,2->6,6->13,6->14,14->29,14->30,30->61,30->62}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - a1 * b1), b1 == x * (G * c1 - a1 * b1), c1 == x * (G * d1 - a1 * b1), d1 == x * (G * a1 - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * a1 * b1), b1 == x * (F * c1 + (y - 1) * a1 * b1), c1 == x * (F * d1 + (y - 1) * a1 * b1), d1 == x * (F * a1 + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,11->23,11->24,23->47,23->48,47->95,47->96}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (d1 * G - d1 * b1), d1 == x * (e1 * G - e1 * b1), e1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (d1 * F + (y - 1) * d1 * b1), d1 == x * (e1 * F + (y - 1) * e1 * b1), e1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,11->23,11->24,23->47,23->48,48->97,48->98}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (d1 * G - d1 * b1), d1 == x * (e1 * G - e1 * b1), e1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (d1 * F + (y - 1) * d1 * b1), d1 == x * (e1 * F + (y - 1) * e1 * b1), e1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,11->23,11->24,23->47,23->48,24->49,24->50}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (d1 * G - d1 * b1), d1 == x * (a1 * a1 - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (d1 * F + (y - 1) * d1 * b1), d1 == x * (a1 * a1 + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,11->23,11->24,12->25,12->26,23->47,23->48}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (d1 * a1 - d1 * b1), d1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (d1 * a1 + (y - 1) * d1 * b1), d1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,11->23,11->24,23->47,23->48}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * a1 - c1 * b1), c1 == x * (d1 * G - d1 * b1), d1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * a1 + (y - 1) * c1 * b1), c1 == x * (d1 * F + (y - 1) * d1 * b1), d1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,11->23,11->24,24->49,24->50,49->99,49->100}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (d1 * G - d1 * b1), d1 == x * (G * e1 - G * b1), e1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (d1 * F + (y - 1) * d1 * b1), d1 == x * (F * e1 + (y - 1) * F * b1), e1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,11->23,11->24,24->49,24->50,50->101,50->102}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (d1 * G - d1 * b1), d1 == x * (G * e1 - G * f1), e1 == x * (G * a1 - G * b1), f1 == x * (c1 * a1 - c1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (d1 * F + (y - 1) * d1 * b1), d1 == x * (F * e1 + (y - 1) * F * f1), e1 == x * (F * a1 + (y - 1) * F * b1), f1 == x * (c1 * a1 + (y - 1) * c1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,11->23,11->24,12->25,12->26,24->49,24->50}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (d1 * a1 - d1 * b1), d1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (d1 * a1 + (y - 1) * d1 * b1), d1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,11->23,11->24,24->49,24->50}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * a1 - c1 * b1), c1 == x * (d1 * G - d1 * b1), d1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * a1 + (y - 1) * c1 * b1), c1 == x * (d1 * F + (y - 1) * d1 * b1), d1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,11->23,11->24,12->25,12->26,25->51,25->52}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (a1 * d1 - a1 * b1), d1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (a1 * d1 + (y - 1) * a1 * b1), d1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,11->23,11->24,12->25,12->26,26->53,26->54}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (a1 * d1 - a1 * e1), d1 == x * (G * a1 - G * b1), e1 == x * (c1 * a1 - c1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (a1 * d1 + (y - 1) * a1 * e1), d1 == x * (F * a1 + (y - 1) * F * b1), e1 == x * (c1 * a1 + (y - 1) * c1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,11->23,11->24,12->25,12->26}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * a1 - c1 * b1), c1 == x * (a1 * a1 - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * a1 + (y - 1) * c1 * b1), c1 == x * (a1 * a1 + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,11->23,11->24,13->27,13->28}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * c1 - c1 * b1), c1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * c1 + (y - 1) * c1 * b1), c1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,11->23,11->24,14->29,14->30}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * d1 - c1 * b1), c1 == x * (a1 * G - a1 * b1), d1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * d1 + (y - 1) * c1 * b1), c1 == x * (a1 * F + (y - 1) * a1 * b1), d1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,12->25,12->26,25->51,25->52,51->103,51->104}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (G * d1 - G * e1), d1 == x * (f1 * G - f1 * b1), e1 == x * (g1 * G - g1 * b1), f1 == x * (a1 * G - a1 * b1), g1 == x * (a1 * d1 - a1 * e1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (F * d1 + (y - 1) * F * e1), d1 == x * (f1 * F + (y - 1) * f1 * b1), e1 == x * (g1 * F + (y - 1) * g1 * b1), f1 == x * (a1 * F + (y - 1) * a1 * b1), g1 == x * (a1 * d1 + (y - 1) * a1 * e1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,12->25,12->26,25->51,25->52,52->105,52->106}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (G * d1 - G * b1), d1 == x * (e1 * G - e1 * b1), e1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (F * d1 + (y - 1) * F * b1), d1 == x * (e1 * F + (y - 1) * e1 * b1), e1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,12->25,12->26,25->51,25->52,26->53,26->54}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (G * d1 - G * e1), d1 == x * (a1 * a1 - a1 * b1), e1 == x * (c1 * a1 - c1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (F * d1 + (y - 1) * F * e1), d1 == x * (a1 * a1 + (y - 1) * a1 * b1), e1 == x * (c1 * a1 + (y - 1) * c1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,12->25,12->26,25->51,25->52}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * a1 - c1 * b1), c1 == x * (G * d1 - G * b1), d1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * a1 + (y - 1) * c1 * b1), c1 == x * (F * d1 + (y - 1) * F * b1), d1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,12->25,12->26,26->53,26->54,53->107,53->108}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (G * d1 - G * e1), d1 == x * (G * f1 - G * b1), e1 == x * (c1 * f1 - c1 * b1), f1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (F * d1 + (y - 1) * F * e1), d1 == x * (F * f1 + (y - 1) * F * b1), e1 == x * (c1 * f1 + (y - 1) * c1 * b1), f1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,12->25,12->26,26->53,26->54,54->109,54->110}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * G - c1 * b1), c1 == x * (G * d1 - G * e1), d1 == x * (G * f1 - G * g1), e1 == x * (c1 * f1 - c1 * g1), f1 == x * (G * a1 - G * b1), g1 == x * (c1 * a1 - c1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * F + (y - 1) * c1 * b1), c1 == x * (F * d1 + (y - 1) * F * e1), d1 == x * (F * f1 + (y - 1) * F * g1), e1 == x * (c1 * f1 + (y - 1) * c1 * g1), f1 == x * (F * a1 + (y - 1) * F * b1), g1 == x * (c1 * a1 + (y - 1) * c1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,12->25,12->26,26->53,26->54}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * a1 - c1 * b1), c1 == x * (G * d1 - G * b1), d1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * a1 + (y - 1) * c1 * b1), c1 == x * (F * d1 + (y - 1) * F * b1), d1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,12->25,12->26,13->27,13->28}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * d1 - c1 * b1), c1 == x * (G * a1 - G * b1), d1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * d1 + (y - 1) * c1 * b1), c1 == x * (F * a1 + (y - 1) * F * b1), d1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,12->25,12->26,14->29,14->30}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (c1 * c1 - c1 * b1), c1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (c1 * c1 + (y - 1) * c1 * b1), c1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,13->27,13->28,27->55,27->56}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (a1 * c1 - a1 * d1), c1 == x * (e1 * G - e1 * b1), d1 == x * (e1 * c1 - e1 * d1), e1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (a1 * c1 + (y - 1) * a1 * d1), c1 == x * (e1 * F + (y - 1) * e1 * b1), d1 == x * (e1 * c1 + (y - 1) * e1 * d1), e1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,13->27,13->28,28->57,28->58}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (a1 * c1 - a1 * d1), c1 == x * (e1 * G - e1 * b1), d1 == x * (e1 * c1 - e1 * d1), e1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (a1 * c1 + (y - 1) * a1 * d1), c1 == x * (e1 * F + (y - 1) * e1 * b1), d1 == x * (e1 * c1 + (y - 1) * e1 * d1), e1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,13->27,13->28,14->29,14->30}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (a1 * c1 - a1 * b1), c1 == x * (a1 * a1 - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (a1 * c1 + (y - 1) * a1 * b1), c1 == x * (a1 * a1 + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,14->29,14->30,29->59,29->60}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (a1 * c1 - a1 * d1), c1 == x * (G * e1 - G * b1), d1 == x * (a1 * f1 - a1 * d1), e1 == x * (a1 * G - a1 * b1), f1 == x * (a1 * e1 - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (a1 * c1 + (y - 1) * a1 * d1), c1 == x * (F * e1 + (y - 1) * F * b1), d1 == x * (a1 * f1 + (y - 1) * a1 * d1), e1 == x * (a1 * F + (y - 1) * a1 * b1), f1 == x * (a1 * e1 + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,5->11,5->12,6->13,6->14,14->29,14->30,30->61,30->62}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (a1 * c1 - a1 * b1), c1 == x * (G * d1 - G * b1), d1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (a1 * c1 + (y - 1) * a1 * b1), c1 == x * (F * d1 + (y - 1) * F * b1), d1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,13->27,13->28,27->55,27->56,55->111,55->112}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * d1), c1 == x * (e1 * G - e1 * b1), d1 == x * (e1 * c1 - e1 * d1), e1 == x * (f1 * G - f1 * b1), f1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * d1), c1 == x * (e1 * F + (y - 1) * e1 * b1), d1 == x * (e1 * c1 + (y - 1) * e1 * d1), e1 == x * (f1 * F + (y - 1) * f1 * b1), f1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,13->27,13->28,27->55,27->56,56->113,56->114}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * d1), c1 == x * (e1 * G - e1 * b1), d1 == x * (e1 * c1 - e1 * d1), e1 == x * (f1 * G - f1 * b1), f1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * d1), c1 == x * (e1 * F + (y - 1) * e1 * b1), d1 == x * (e1 * c1 + (y - 1) * e1 * d1), e1 == x * (f1 * F + (y - 1) * f1 * b1), f1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,13->27,13->28,27->55,27->56,28->57,28->58}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * d1), c1 == x * (e1 * G - e1 * b1), d1 == x * (e1 * c1 - e1 * d1), e1 == x * (a1 * a1 - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * d1), c1 == x * (e1 * F + (y - 1) * e1 * b1), d1 == x * (e1 * c1 + (y - 1) * e1 * d1), e1 == x * (a1 * a1 + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,13->27,13->28,14->29,14->30,27->55,27->56}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * d1), c1 == x * (e1 * a1 - e1 * b1), d1 == x * (e1 * c1 - e1 * d1), e1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * d1), c1 == x * (e1 * a1 + (y - 1) * e1 * b1), d1 == x * (e1 * c1 + (y - 1) * e1 * d1), e1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,13->27,13->28,28->57,28->58,57->115,57->116}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * d1), c1 == x * (e1 * G - e1 * b1), d1 == x * (e1 * c1 - e1 * d1), e1 == x * (G * f1 - G * g1), f1 == x * (a1 * G - a1 * b1), g1 == x * (a1 * c1 - a1 * d1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * d1), c1 == x * (e1 * F + (y - 1) * e1 * b1), d1 == x * (e1 * c1 + (y - 1) * e1 * d1), e1 == x * (F * f1 + (y - 1) * F * g1), f1 == x * (a1 * F + (y - 1) * a1 * b1), g1 == x * (a1 * c1 + (y - 1) * a1 * d1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,13->27,13->28,28->57,28->58,58->117,58->118}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * d1), c1 == x * (e1 * G - e1 * b1), d1 == x * (e1 * c1 - e1 * d1), e1 == x * (G * f1 - G * b1), f1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * d1), c1 == x * (e1 * F + (y - 1) * e1 * b1), d1 == x * (e1 * c1 + (y - 1) * e1 * d1), e1 == x * (F * f1 + (y - 1) * F * b1), f1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,13->27,13->28,14->29,14->30,28->57,28->58}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * d1), c1 == x * (e1 * a1 - e1 * b1), d1 == x * (e1 * c1 - e1 * d1), e1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * d1), c1 == x * (e1 * a1 + (y - 1) * e1 * b1), d1 == x * (e1 * c1 + (y - 1) * e1 * d1), e1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,13->27,13->28,14->29,14->30,29->59,29->60}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * d1), c1 == x * (a1 * e1 - a1 * d1), d1 == x * (a1 * c1 - a1 * d1), e1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * d1), c1 == x * (a1 * e1 + (y - 1) * a1 * d1), d1 == x * (a1 * c1 + (y - 1) * a1 * d1), e1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,13->27,13->28,14->29,14->30,30->61,30->62}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * d1), c1 == x * (a1 * e1 - a1 * b1), d1 == x * (a1 * c1 - a1 * d1), e1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * d1), c1 == x * (a1 * e1 + (y - 1) * a1 * b1), d1 == x * (a1 * c1 + (y - 1) * a1 * d1), e1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,14->29,14->30,29->59,29->60,59->119,59->120}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * d1), c1 == x * (G * e1 - G * f1), d1 == x * (G * g1 - G * h1), e1 == x * (i1 * G - i1 * b1), f1 == x * (i1 * c1 - i1 * d1), g1 == x * (i1 * e1 - i1 * f1), h1 == x * (i1 * g1 - i1 * h1), i1 == x * (a1 * G - a1 * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * d1), c1 == x * (F * e1 + (y - 1) * F * f1), d1 == x * (F * g1 + (y - 1) * F * h1), e1 == x * (i1 * F + (y - 1) * i1 * b1), f1 == x * (i1 * c1 + (y - 1) * i1 * d1), g1 == x * (i1 * e1 + (y - 1) * i1 * f1), h1 == x * (i1 * g1 + (y - 1) * i1 * h1), i1 == x * (a1 * F + (y - 1) * a1 * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,14->29,14->30,29->59,29->60,60->121,60->122}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * d1), c1 == x * (G * e1 - G * f1), d1 == x * (G * g1 - G * h1), e1 == x * (i1 * G - i1 * b1), f1 == x * (i1 * c1 - i1 * d1), g1 == x * (i1 * e1 - i1 * f1), h1 == x * (i1 * g1 - i1 * h1), i1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * d1), c1 == x * (F * e1 + (y - 1) * F * f1), d1 == x * (F * g1 + (y - 1) * F * h1), e1 == x * (i1 * F + (y - 1) * i1 * b1), f1 == x * (i1 * c1 + (y - 1) * i1 * d1), g1 == x * (i1 * e1 + (y - 1) * i1 * f1), h1 == x * (i1 * g1 + (y - 1) * i1 * h1), i1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,14->29,14->30,29->59,29->60,30->61,30->62}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * d1), c1 == x * (G * e1 - G * f1), d1 == x * (G * g1 - G * h1), e1 == x * (a1 * a1 - a1 * b1), f1 == x * (a1 * c1 - a1 * d1), g1 == x * (a1 * e1 - a1 * f1), h1 == x * (a1 * g1 - a1 * h1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * d1), c1 == x * (F * e1 + (y - 1) * F * f1), d1 == x * (F * g1 + (y - 1) * F * h1), e1 == x * (a1 * a1 + (y - 1) * a1 * b1), f1 == x * (a1 * c1 + (y - 1) * a1 * d1), g1 == x * (a1 * e1 + (y - 1) * a1 * f1), h1 == x * (a1 * g1 + (y - 1) * a1 * h1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,14->29,14->30,30->61,30->62,61->123,61->124}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * d1), c1 == x * (G * e1 - G * f1), d1 == x * (G * g1 - G * h1), e1 == x * (G * i1 - G * j1), f1 == x * (G * k1 - G * l1), g1 == x * (G * m1 - G * n1), h1 == x * (G * o1 - G * p1), i1 == x * (a1 * G - a1 * b1), j1 == x * (a1 * c1 - a1 * d1), k1 == x * (a1 * e1 - a1 * f1), l1 == x * (a1 * g1 - a1 * h1), m1 == x * (a1 * i1 - a1 * j1), n1 == x * (a1 * k1 - a1 * l1), o1 == x * (a1 * m1 - a1 * n1), p1 == x * (a1 * o1 - a1 * p1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * d1), c1 == x * (F * e1 + (y - 1) * F * f1), d1 == x * (F * g1 + (y - 1) * F * h1), e1 == x * (F * i1 + (y - 1) * F * j1), f1 == x * (F * k1 + (y - 1) * F * l1), g1 == x * (F * m1 + (y - 1) * F * n1), h1 == x * (F * o1 + (y - 1) * F * p1), i1 == x * (a1 * F + (y - 1) * a1 * b1), j1 == x * (a1 * c1 + (y - 1) * a1 * d1), k1 == x * (a1 * e1 + (y - 1) * a1 * f1), l1 == x * (a1 * g1 + (y - 1) * a1 * h1), m1 == x * (a1 * i1 + (y - 1) * a1 * j1), n1 == x * (a1 * k1 + (y - 1) * a1 * l1), o1 == x * (a1 * m1 + (y - 1) * a1 * n1), p1 == x * (a1 * o1 + (y - 1) * a1 * p1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
+Graph[{0->1,0->2,2->5,2->6,6->13,6->14,14->29,14->30,30->61,30->62,62->125,62->126}]
+
+Collect[GroebnerBasis[{G == x + a1, a1 == x * (G * G - G * b1), b1 == x * (G * c1 - G * b1), c1 == x * (G * d1 - G * b1), d1 == x * (G * e1 - G * b1), e1 == x * (G * a1 - G * b1)}, {x, G}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], G]
+
+Collect[GroebnerBasis[{F == x + a1, a1 == x * (F * F + (y - 1) * F * b1), b1 == x * (F * c1 + (y - 1) * F * b1), c1 == x * (F * d1 + (y - 1) * F * b1), d1 == x * (F * e1 + (y - 1) * F * b1), e1 == x * (F * a1 + (y - 1) * F * b1)}, {x, y, F}, {a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, z3}, MonomialOrder -> EliminationOrder], F]
+
