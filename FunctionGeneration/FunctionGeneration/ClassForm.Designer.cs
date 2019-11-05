@@ -33,6 +33,8 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.ansButton = new System.Windows.Forms.Button();
             this.backToMenuButton = new System.Windows.Forms.Button();
+            this.Gfunction = new System.Windows.Forms.CheckBox();
+            this.Ffunction = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // nLabel
@@ -78,12 +80,36 @@
             this.backToMenuButton.UseVisualStyleBackColor = false;
             this.backToMenuButton.Click += new System.EventHandler(this.backToMenuButton_Click);
             // 
+            // Gfunction
+            // 
+            this.Gfunction.AutoSize = true;
+            this.Gfunction.BackColor = System.Drawing.Color.Fuchsia;
+            this.Gfunction.Location = new System.Drawing.Point(645, 106);
+            this.Gfunction.Name = "Gfunction";
+            this.Gfunction.Size = new System.Drawing.Size(231, 36);
+            this.Gfunction.TabIndex = 39;
+            this.Gfunction.Text = "Функция G(n)";
+            this.Gfunction.UseVisualStyleBackColor = false;
+            // 
+            // Ffunction
+            // 
+            this.Ffunction.AutoSize = true;
+            this.Ffunction.BackColor = System.Drawing.Color.Fuchsia;
+            this.Ffunction.Location = new System.Drawing.Point(645, 168);
+            this.Ffunction.Name = "Ffunction";
+            this.Ffunction.Size = new System.Drawing.Size(248, 36);
+            this.Ffunction.TabIndex = 40;
+            this.Ffunction.Text = "Функция F(n,k)";
+            this.Ffunction.UseVisualStyleBackColor = false;
+            // 
             // ClassForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1008, 450);
+            this.Controls.Add(this.Ffunction);
+            this.Controls.Add(this.Gfunction);
             this.Controls.Add(this.backToMenuButton);
             this.Controls.Add(this.ansButton);
             this.Controls.Add(this.nTextBox);
@@ -102,5 +128,7 @@
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Button ansButton;
         private System.Windows.Forms.Button backToMenuButton;
+        private System.Windows.Forms.CheckBox Gfunction;
+        private System.Windows.Forms.CheckBox Ffunction;
     }
 }
