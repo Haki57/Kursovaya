@@ -190,7 +190,8 @@ namespace FunctionGeneration
                     }
 
                     verdictTextBox.Text += $"\nRouland hypothesis is TRUE for given input\n\n" +
-                        $"Количество функций в группах:\n";
+                                           $"Количество различных функций: {XGroups.Length}\n" +
+                                           $"Количество функций в группах:\n";
                     int sum = 0;
                     for (int i = XGroups.Length - 1; i > -1; i--)
                     {
@@ -204,7 +205,8 @@ namespace FunctionGeneration
                     return;
 
                     AvoidanceCase:
-                        verdictTextBox.Text +=  $"Количество функций в группах:\n";
+                        verdictTextBox.Text += $"Количество различных функций: {XGroups.Length}\n" +
+                                               $"Количество функций в группах:\n";
                         sum = 0;
                         for (int i = XGroups.Length - 1; i > -1; i--)
                         {
