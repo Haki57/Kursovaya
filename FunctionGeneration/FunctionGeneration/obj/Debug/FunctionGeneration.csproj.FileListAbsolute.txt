@@ -46,3 +46,19 @@ C:\Users\User\Desktop\kurs_1\Kursovaya\Черкасов 182\FunctionGeneration\F
 C:\Users\User\Desktop\kurs_1\Kursovaya\Черкасов 182\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.csproj.CopyComplete
 C:\Users\User\Desktop\kurs_1\Kursovaya\Черкасов 182\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.exe
 C:\Users\User\Desktop\kurs_1\Kursovaya\Черкасов 182\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.pdb
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\bin\Debug\TreeLib.dll
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\bin\Debug\TreeLib.pdb
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.csprojAssemblyReference.cache
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.ClassForm.resources
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.HypothesisTestingForm.resources
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.MenuForm.resources
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.TreeForm.resources
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.Properties.Resources.resources
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.csproj.GenerateResource.cache
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.exe
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.pdb
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\bin\Debug\FunctionGeneration.exe.config
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\bin\Debug\FunctionGeneration.exe
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\bin\Debug\FunctionGeneration.pdb
+C:\Users\User\Desktop\kurs_1\Kursovaya\ForGitRepository\FunctionGeneration\FunctionGeneration\obj\Debug\FunctionGeneration.csproj.CopyComplete

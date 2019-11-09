@@ -33,6 +33,7 @@
             this.verdictTextBox = new System.Windows.Forms.RichTextBox();
             this.backToMenuButton = new System.Windows.Forms.Button();
             this.makeNewFileButton = new System.Windows.Forms.Button();
+            this.Gfunction = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -81,12 +82,24 @@
             this.makeNewFileButton.UseVisualStyleBackColor = false;
             this.makeNewFileButton.Click += new System.EventHandler(this.makeNewFileButton_Click);
             // 
+            // Gfunction
+            // 
+            this.Gfunction.AutoSize = true;
+            this.Gfunction.BackColor = System.Drawing.Color.Fuchsia;
+            this.Gfunction.Location = new System.Drawing.Point(783, 234);
+            this.Gfunction.Name = "Gfunction";
+            this.Gfunction.Size = new System.Drawing.Size(447, 36);
+            this.Gfunction.TabIndex = 40;
+            this.Gfunction.Text = "В файле только функция G(n)";
+            this.Gfunction.UseVisualStyleBackColor = false;
+            // 
             // HypothesisTestingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1377, 805);
+            this.Controls.Add(this.Gfunction);
             this.Controls.Add(this.makeNewFileButton);
             this.Controls.Add(this.backToMenuButton);
             this.Controls.Add(this.verdictTextBox);
@@ -94,6 +107,7 @@
             this.Name = "HypothesisTestingForm";
             this.Text = "Проверка гипотезы";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -104,5 +118,6 @@
         private System.Windows.Forms.RichTextBox verdictTextBox;
         private System.Windows.Forms.Button backToMenuButton;
         private System.Windows.Forms.Button makeNewFileButton;
+        private System.Windows.Forms.CheckBox Gfunction;
     }
 }
