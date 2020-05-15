@@ -65,6 +65,9 @@ namespace FunctionGeneration
                         {
                             int ravnoIndex = commands[i].IndexOf('=');
                             commands[i] = commands[i].Substring(ravnoIndex + 2, commands[i].Length - ravnoIndex - 2);
+                            if (commands[i][commands[i].Length - 1] != '\r')
+                                commands[i] += "\r";
+
                             if (!Gfunction.Checked)
                             {
                                 if (cnt % 3 == 0)
